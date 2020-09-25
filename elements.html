@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<head lang='ru'>
+	<title>Элементы</title>
+	<meta charset='UTF-8'>
+	<link rel='stylesheet' href='styles/elements.css'>
+</head>
+<body>
+
+<!-- nav -->
+
+	<section id='nav'>
+		<div id='navCont'>
+			<div id='ulya'>
+				<a href='#'><h2>Ульяна</h2></a>
+			</div>
+		</div>
+		<div id='navigator'>
+			<a href='index.html'>дом</a>
+			<a href='index2.html'>общая</a>
+			<a href='elements.html'>элементы</a>
+		</div>
+	</section>
+
+<!-- main -->
+
+	<div id='main'>
+
+		<div id='heading'><h1>Элементы</h1></div>
+
+<!-- text -->
+
+		<section id='text'>
+			<h2>Текст</h2>
+			<p>Это <b>выделенный</b>, а это <strong>важный</strong>. 
+				Это <i>курсив</i>, а это <em>акцентированный</em>. 
+				Это <sup>верхний</sup> текст, а это <sub>нижний</sub> текст. 
+				Это <ins>подчеркнуто</ins>, а это код: <code>for (;;) {...}</code>. 
+				Наконец, <a href='#'>это ссылка</a>.</p>
+			</section>
+
+<!----------------------- textOne ------------------->
+
+			<section id='textOne'>
+				<p>Но я должен объяснить вам, как родилась вся эта 
+					ошибочная идея осуждения удовольствия и восхваления 
+					боли, и я дам вам полный отчет о системе и изложу 
+					действительные учения великого исследователя истины, 
+					мастера-строителя человеческое счастье. Никто не отвергает, 
+					не любит или не избегает самого удовольствия, потому что 
+					это удовольствие, а потому что те, кто не знает, как 
+					получать удовольствие, рационально сталкиваются с 
+					последствиями, которые чрезвычайно болезненны. Также нет 
+					никого, кто любит, преследует или желает получить боль 
+					сама по себе, потому что это боль, а потому, что иногда 
+					случаются обстоятельства, при которых труд и боль могут 
+					доставить ему какое-то большое удовольствие. Возьмем 
+					тривиальный пример: кто из нас когда-либо предпринимает 
+					кропотливые физические упражнения, кроме как для того, 
+					чтобы получить от него какое-то преимущество? Но кто имеет 
+					какое-либо право придраться к человеку, который предпочитает 
+					наслаждаться удовольствием, которое не имеет раздражающих 
+					последствий, или тому, кто избегает боли, которая не 
+				приносит никакого удовольствия?</p>
+			</section>
+
+<!--------------------- headers------------------>
+
+			<section id='headers'>
+				<h2>Заголовок второго уовня</h2>
+				<h3>Заголовок третьего уровня</h3>
+				<h4>Заголовок четвертого уовня</h4>
+				<h5>Заголовок пятого уровня</h5>
+				<h6>Заголовок шестого уровня</h6>
+			</section>
+
+<!--------------------- blockquote -------------->
+
+			<section id='blockquote'>
+				<h3>Блокнот</h3>
+				<div id='line'>
+					<div id='verticalLine'></div>
+					<blockquote><p>С другой стороны, мы осуждаем с праведным негодованием 
+						и не любим мужчин, которые настолько обольщены и 
+						деморализованы очарованием удовольствия момента, 
+						настолько ослеплены желанием, что они не могут предвидеть 
+					боль и неприятности, которые неизбежно последуют.</p>
+				</blockquote>
+				</div>
+			</section>
+
+<!---------------- preformatted ---------------->
+
+			<section id='preformatted'>
+				<h3>Выравнивание</h3>
+<pre>
+	<code>
+  i = 0;
+
+  while (!deck.isInOrder()) {
+      print 'Iteration ' + i;
+      deck.shuffle();
+      i++;
+  }
+
+  print 'It took ' + i + ' iterations to sort the deck.';
+  </code>
+</pre>
+			</section>
+
+<!-- lists -->
+
+<section id='lists'>
+	<h2>Списки</h2>
+	<div id='listsFlex'>
+		<div id='listsCol_1'>
+
+			<div id='unorderList'>
+				<h3>Маркированный</h3>
+				<ul>
+					<li>Велосипед</li>
+					<li>Самокат</li>
+					<li>Скейт</li>
+				</ul>
+			</div>
+
+			<div id='tabList'>
+				<h3>Табличный</h3>
+				<ul>
+					<li id='tabList_1'>Лего</li>
+					<li id='tabList_2'>Дом Барби</li>
+					<li id='tabList_3'>Инфинити Надо</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id='listsCol_2'>
+			<div id='orderList'>
+				<h3>Нумерованный</h3>
+				<ol>
+					<li>Велосипед</li>
+					<li>Самокат</li>
+					<li>Скейт</li>
+					<li>Лего</li>
+					<li>Дом Барби</li>
+					<li>Инфинити Надо</li>
+				</ol>
+			</div>
+
+			<div id='icons'>
+				<h3>Иконки</h3>
+				<ul>
+					<li><a id='social_1' href='#'></a></li>
+					<li><a id='social_2' href='#'></a></li>
+					<li><a id='social_3' href='#'></a></li>
+					<li><a id='social_4' href='#'></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!---------------- actionsLists --------------------->
+
+	<div id='actions'>
+		<h2>Действия</h2>
+		<div id='actionsFlex'>
+
+<!--------------- actionsCol_1 ----------------------->		
+			<div id='actionsCol_1'>
+				<ul>
+					<li class='liCol_1Gorizont'><a class='buttonBig_1Col_1' href='#'>По умолчанию</a></li>
+					<li class='liCol_1Gorizont'><a class='buttonBig_2Col_1' href='#'>По умолчанию</a></li>
+				</ul>
+				<ul>
+					<li class='liCol_1Gorizont'><a class='buttonSmall_1Col_1' href='#'>Мини</a></li>
+					<li class='liCol_1Gorizont'><a class='buttonSmall_2Col_1' href='#'>Мини</a></li>
+				</ul>
+				<ul>
+					<li class='liCol_1Vertical' id='buttonBigVertical_1Col_1'><a class='buttonBig_1Col_1' href='#'>По умолчанию</a></li>
+					<li class='liCol_1Vertical' id='buttonBigVertical_2Col_1'><a class='buttonBig_2Col_1' href='#'>По умолчанию</a></li>
+				</ul>
+				<ul>
+					<li class='liCol_1Vertical'><a class='buttonSmall_1Col_1' href='#'>Мини</a></li>
+					<li class='liCol_1Vertical'><a class='buttonSmall_2Col_1' href='#'>Мини</a></li>
+				</ul>
+			</div>
+
+<!--------------- actionsCol_2 ---------------->
+
+			<div id='actionsCol_2'>
+				<ul>
+					<li class='liCol_1Vertical' id='buttonBigVertical_1Col_2'><a class='buttonBig_1Col_2' href='#'>По умолчанию</a></li>
+					<li class='liCol_1Vertical' id='buttonBigVertical_2Col_2'><a class='buttonBig_2Col_2' href='#'>По умолчанию</a></li>
+				</ul>
+				<ul>
+					<li class='liCol_1Vertical'><a class='buttonSmall_1Col_2' href='#'>Мини</a></li>
+					<li class='liCol_1Vertical'><a class='buttonSmall_2Col_2' href='#'>Мини</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- table -->
+
+<section id='table'>
+	<h2>Таблица</h2>
+	<h3>По умолчанию</h3>
+	<div class='table'>
+		<table>
+			<thead>
+				<tr>
+					<th class='tabCol_1'>Имя</th>
+					<th class='tabCol_2'>Описание</th>
+					<th class='tabCol_3'>Цена</th>
+				</tr>
+			</thead>
+			<tbody >
+				<tr>
+					<td class='fitBorder bgraund'>Первый пункт</td>
+					<td class='fitBorder bgraund'>Какое-либо описание</td>
+					<td class='fitBorder bgraund'>29.99</td>
+				</tr>
+				<tr>
+					<td>Второй пункт</td>
+					<td>Описание чего-либо</td>
+					<td>19.99</td>
+				</tr>
+				<tr>
+					<td class='bgraund'>Третий пункт</td>
+					<td class='bgraund'>Какое-либо описание</td>
+					<td class='bgraund'>29.99</td>
+				</tr>
+				<tr>
+					<td>Четвертый пункт</td>
+					<td>Описание чего-либо</td>
+					<td>19.99</td>
+				</tr>
+				<tr>
+					<td class='bgraund'>Пятый пункт</td>
+					<td class='bgraund'>Какое-либо описание</td>
+					<td class='bgraund'>29.99</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan='2' class='fitBorder'></td>
+					<td class='fitBorder'>100.00</td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+
+<h3>Альтернативная таблица</h3>
+	<div class='table'>
+		<table>
+			<thead>
+				<tr>
+					<th class='tabCol_1'>Имя</th>
+					<th class='tabCol_2'>Описание</th>
+					<th class='tabCol_3'>Цена</th>
+				</tr>
+			</thead>
+			<tbody >
+				<tr>
+					<td class='fitBorder bgraund verticalBorder'>Первый пункт</td>
+					<td class='fitBorder bgraund verticalBorder'>Какое-либо описание</td>
+					<td class='fitBorder bgraund verticalBorder'>29.99</td>
+				</tr>
+				<tr>
+					<td class='verticalBorder'>Второй пункт</td>
+					<td class='verticalBorder'>Описание чего-либо</td>
+					<td class='verticalBorder'>19.99</td>
+				</tr>
+				<tr>
+					<td class='bgraund verticalBorder'>Третий пункт</td>
+					<td class='bgraund verticalBorder'>Какое-либо описание</td>
+					<td class='bgraund verticalBorder'>29.99</td>
+				</tr>
+				<tr>
+					<td class='verticalBorder'>Четвертый пункт</td>
+					<td class='verticalBorder'>Описание чего-либо</td>
+					<td class='verticalBorder'>19.99</td>
+				</tr>
+				<tr>
+					<td class='bgraund verticalBorder'>Пятый пункт</td>
+					<td class='bgraund verticalBorder'>Какое-либо описание</td>
+					<td class='bgraund verticalBorder'>29.99</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan='2' class='noneBorder'></td>
+					<td class='noneBorder'>100.00</td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+	
+</section>
+
+<!-- buttons -->
+
+<section id='buttons'>
+	<h2>Кнопки</h2>
+	<div id='lineButton_1'>
+		<ul>
+			<li class='liBlock'><a class='but_1' href='#'>Изначальный</a></li>
+			<li class='liBlock'><a class='but_2' href='#'>По умолчанию</a></li>
+		</ul>
+
+		<ul id='buttonSize'>
+			<li class='liBlock'><a id='big' class='but_2 ' href='#'>Большая</a></li>
+			<li class='liBlock'><a id='def' class='but_2' href='#'>По умолчанию</a></li>
+			<li class='liBlock'><a id='mini' class='but_2' href='#'>Мини</a></li>
+		</ul>
+
+		<ul>
+			<li class='liBlock'><a class='but_1 fit' href='#'>Соответствующая</a></li>
+			<li class='liBlock'><a class='but_2 fit' href='#'>Соответствующая</a></li>
+			<li class='liBlock'><a class='but_2 fit' href='#'>Соответствующая</a></li>
+		</ul>
+
+		<ul>
+			<li class='liBlock'><a class='but_1 fitMini' href='#'>Соответствующая + Мини</a></li>
+			<li class='liBlock'><a class='but_2 fitMini' href='#'>Соответствующая + Мини</a></li>
+			<li class='liBlock'><a class='but_2 fitMini' href='#'>Соответствующая + Мини</a></li>
+		</ul>
+
+		<ul>
+			<li class='liBlock'><a class='but_1' href='#'><img src="images/button/export.svg" alt='#'>Иконка</a></li>
+			<li class='liBlock'><a class='but_2' href='#'><img src="images/button/import_1.svg" alt='#'>Иконка</a></li>
+			<li class='liBlock'><a class='but_2' href='#'><img src="images/button/save_1.svg" alt='#'>Иконка</a></li>
+		</ul>
+
+		<ul id='disable'>
+			<li class='liBlock'><span class='but_1'>Отключенная</span></li>
+			<li class='liBlock'><span class='but_2'>Отключенная</span></li>
+		</ul>
+	</div>
+</section>
+
+<!-- forms -->
+
+<section id='forms'>
+	<h2>Формы</h2>
+	<form id='' action='/' method=''>
+		<div id='formFlex'>
+			<div id='name'>
+				<input id='nameOne' type='text' placeholder='Name' maxlength='' >
+			</div>
+			<div id='email'>
+				<input id='emailOne' type='text' placeholder='Email' maxlength=''>
+			</div>
+			<div id='listOpen'>
+				<select id='listOpenForm' name='nnn' size='1'>
+					<option value='1'>- Категории -</option>
+					<option value='2'>Производство</option>
+					<option value='2'>Перевозки</option>
+					<option value='2'>Администрирация</option>
+					<option value='2'>Отдел кадров</option>
+				</select>
+			</div>
+			<div class='radioKnopka' id='knopka_1'>
+				
+				<input id='low' type='radio' name='knopka'>
+				<label for='low'>Low</label>
+			</div>
+			<div class='radioKnopka' id='knopka_2'>
+				<input id='normal' type='radio' name='knopka'>
+				<label for='normal'>Normal</label>
+			</div>
+			<div class='radioKnopka' id='knopka_3'>
+				<input id='hight' type='radio' name='knopka'>
+				<label for='hight'>Hight</label>
+			</div>
+			<div class='chekKnopka' id='flag_1'>
+				<input id='copy' type='checkbox' name=''>
+				<label for='copy'>Скопировать мне на почту</label>
+			</div>
+			<div class='chekKnopka' id='flag_2'>
+				<input id='no-robot' type='checkbox' name=''>
+				<label for='no-robot'>Не робот</label>
+			</div>
+			<div id='massageText'>
+				<textarea id='massage' name='text' placeholder='Сообщение' cols='' rows=''></textarea> 
+			</div>
+			<div id='massageButton'>
+				<ul>
+					<li class='knopkaForm'><input class='submint' type='submint' value='Отправить сообщение'></li>
+					<li class='knopkaForm'><input class='reset' type='reset' value='Сброс'></li>
+				</ul>
+			</div>
+		</div>
+	</form>
+</section>
+
+<!-- images -->
+
+<section id='images'>
+	<h2>Картинки</h2>
+	<h3>Поместиться</h3>
+	<div>
+		<div id='imagesFlex' >
+			<div class="picBig">
+				<span class="imagesFit">
+					<img src="images/pic01.jpg" alt="">
+				</span>
+			</div>
+			<div class="picSmall">
+				<span class="imagesFit">
+					<img src="images/pic01.jpg" alt="">
+				</span>
+			</div>
+			<div class="picSmall">
+				<span class="imagesFit">
+					<img src="images/pic02.jpg" alt="">
+				</span>
+			</div>
+			<div class="picSmall">
+				<span class="imagesFit">
+					<img src="images/pic06.jpg" alt="">
+				</span>
+			</div>
+			<div class="picSmall">
+				<span class="imagesFit">
+					<img src="images/pic06.jpg" alt="">
+				</span>
+			</div>
+			<div class="picSmall">
+				<span class="imagesFit">
+					<img src="images/pic01.jpg" alt="">
+				</span>
+			</div>
+			<div class="picSmall">
+				<span class="imagesFit">
+					<img src="images/pic02.jpg" alt="">
+				</span>
+			</div>
+			<div class="picSmall">
+				<span class="imagesFit">
+					<img src="images/pic02.jpg" alt="">
+				</span>
+			</div>
+			<div class="picSmall">
+				<span class="imagesFit">
+					<img src="images/pic06.jpg" alt="">
+				</span>
+			</div>
+			<div class="picSmall">
+				<span class="imagesFit">
+					<img src="images/pic01.jpg" alt="">
+				</span>
+			</div>
+		</div>
+	</div>
+	<h3>Лево и Право</h3>
+	<p>
+		<span id="left">
+			<img src="images/pic02.jpg" alt="">
+		</span>
+		Lorem Ipsum - это текст-"рыба", часто используемый в 
+		печати и вэб-дизайне. Lorem Ipsum является стандартной 
+		"рыбой" для текстов на латинице с начала XVI века. 
+		В то время некий безымянный печатник создал большую 
+		коллекцию размеров и форм шрифтов, используя Lorem Ipsum 
+		для распечатки образцов. Lorem Ipsum не только успешно 
+		пережил без заметных изменений пять веков, но и 
+		перешагнул в электронный дизайн. Его популяризации в 
+		новое время послужили публикация листов Letraset с 
+		образцами Lorem Ipsum в 60-х годах и, в более недавнее 
+		время, программы электронной вёрстки типа Aldus PageMaker, 
+		в шаблонах которых используется Lorem Ipsum.
+		Многие думают, что Lorem Ipsum - взятый с потолка 
+		псевдо-латинский набор слов, но это не совсем так. 
+		Его корни уходят в один фрагмент классической латыни 
+		45 года н.э., то есть более двух тысячелетий назад. 
+		Ричард МакКлинток, профессор латыни из колледжа 
+		Hampden-Sydney, штат Вирджиния, взял одно из самых 
+		странных слов в Lorem Ipsum, "consectetur", и занялся 
+		его поисками в классической латинской литературе. 
+		В результате он нашёл неоспоримый первоисточник Lorem Ipsum 
+		в разделах 1.10.32 и 1.10.33 книги "de Finibus Bonorum 
+		et Malorum" ("О пределах добра и зла"), написанной 
+		Цицероном в 45 году н.э. Этот трактат по теории этики 
+		был очень популярен в эпоху Возрождения. Первая строка 
+		Lorem Ipsum, "Lorem ipsum dolor sit amet..", происходит 
+		от одной из строк в разделе 1.10.32
+	</p>
+	<p>
+		<span id="right">
+			<img src="images/pic01.jpg" alt="">
+		</span>
+		Давно выяснено, что при оценке дизайна и композиции 
+		читаемый текст мешает сосредоточиться. Lorem Ipsum 
+		используют потому, что тот обеспечивает более или 
+		менее стандартное заполнение шаблона, а также реальное 
+		распределение букв и пробелов в абзацах, которое не 
+		получается при простой дубликации "Здесь ваш текст.. 
+		Здесь ваш текст.. Здесь ваш текст.." Многие программы 
+		электронной вёрстки и редакторы HTML используют 
+		Lorem Ipsum в качестве текста по умолчанию, так что 
+		поиск по ключевым словам "lorem ipsum" сразу показывает, 
+		как много веб-страниц всё ещё дожидаются своего настоящего 
+		рождения. За прошедшие годы текст Lorem Ipsum получил 
+		много версий. Некоторые версии появились по ошибке, 
+		некоторые - намеренно (например, юмористические варианты).
+		Есть много вариантов Lorem Ipsum, но большинство из 
+		них имеет не всегда приемлемые модификации, например, 
+		юмористические вставки или слова, которые даже отдалённо 
+		не напоминают латынь. Если вам нужен Lorem Ipsum для 
+		серьёзного проекта, вы наверняка не хотите какой-нибудь 
+		шутки, скрытой в середине абзаца. Также все другие 
+		известные генераторы Lorem Ipsum используют один и тот 
+		же текст, который они просто повторяют, пока не достигнут 
+		нужный объём. Это делает предлагаемый здесь генератор 
+		единственным настоящим Lorem Ipsum генератором. 
+		Он использует словарь из более чем 200 латинских слов, 
+		а также набор моделей предложений. В результате 
+		сгенерированный Lorem Ipsum выглядит правдоподобно, 
+		не имеет повторяющихся абзацей или "невозможных" слов.
+	</p>
+</section>
+
+	</div>
+
+		
+
+<!-- footer -->
+
+		<section id='footer'>
+			<div id='copyright'>
+				<div id='vovchis'><p>&copy Vovchis 2020. Все права защищены.</p></div>
+				<div id='hr'></div>
+				<div id='design'><p>Дизайн:  <a href='#' class='footerUp'> HTML5 UP</a></p></div>
+			</div>
+		</section>
+
+	</body>
+	</html>
